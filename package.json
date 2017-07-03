@@ -5,6 +5,7 @@
   "main": "build/index.min.css",
   "scripts": {
     "build": "node-sass index.scss build/index.min.css --output-style compressed --include-path ./node_modules",
+    "build:buildabode": "node-sass themes/buildabode/index.scss build/buildabode/index.min.css --output-style compressed --include-path ./node_modules",
     "start": "node-sass index.scss build/index.min.css -w --output-style compressed --include-path ./node_modules"
   },
   "keywords": [
@@ -13,7 +14,7 @@
   ],
   "author": "Mel van Londen",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "grommet": "^1.3.4"
   },
   "devDependencies": {

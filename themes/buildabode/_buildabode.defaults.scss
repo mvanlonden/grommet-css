@@ -1,0 +1,63 @@
+// (C) Copyright 2014-2016 Hewlett Packard Enterprise Development LP
+
+$brand-color: #865CD6;
+$brand-neutral-colors: (#0A64A0, #DC2878, #501EB4, #49516F);
+$brand-accent-colors: (#00CCEB, #FF7D28);
+$brand-link-color: #865CD6;
+$brand-status-colors: (
+  critical: #FF324D,
+  error: #FF324D,
+  warning: #FFD602,
+  ok: #8CC800,
+  unknown: #a8a8a8,
+  disabled: #a8a8a8
+) !default;
+$brand-grey-colors: (#000001, #333333, #3B3B3B, #434343, #666666);
+
+$button-secondary-color: nth($brand-neutral-colors, 2);
+
+$brand-font-family: 'Source Sans Pro', Arial, sans-serif;
+$brand-large-number-font-family: 'Source Sans Pro', Arial, sans-serif;
+$code-font-family: Consolas, Menlo, 'DejaVu Sans Mono', 'Liberation Mono', monospace;
+
+$fonts-path: "https://fonts.gstatic.com/s/sourcesanspro/v10";
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Source Sans Pro Light'),
+    local('SourceSansPro-Light'),
+    url("#{$fonts-path}/toadOcfmlt9b38dHJxOBGCP2LEk6lMzYsRqr3dHFImA.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Source Sans Pro'),
+    local('SourceSansPro-Regular'),
+    url("#{$fonts-path}/ODelI1aHBYDBqgeIAH2zlJbPFduIYtoLzwST68uhz_Y.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Source Sans Pro SemiBold'),
+    local('SourceSansPro-SemiBold'),
+    url("#{$fonts-path}/toadOcfmlt9b38dHJxOBGMzFoXZ-Kj537nB_-9jJhlA.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Source Sans Pro Bold'),
+    local('SourceSansPro-Bold'),
+    url("#{$fonts-path}/toadOcfmlt9b38dHJxOBGJkF8H8ye47wsfpWywda8og.woff2") format('woff2');
+}
