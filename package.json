@@ -14,9 +14,6 @@
   ],
   "author": "Mel van Londen",
   "license": "MIT",
-  "peerDependencies": {
-    "grommet": "^1.5.0"
-  },
   "devDependencies": {
     "node-sass": "^4.5.1"
   },
