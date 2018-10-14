@@ -7,7 +7,7 @@ Created to use [grommet](https://github.com/grommet/grommet) with [create-react-
 ```bash
 npm install grommet-css
 # or
-yarn install grommet-css
+yarn add grommet-css
 ```
 
 in `App.js`
